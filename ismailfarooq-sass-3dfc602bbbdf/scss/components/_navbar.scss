@@ -1,0 +1,60 @@
+//===========================================
+	// -Navbar start
+//===========================================
+.check1 {
+	width: 23%;
+	display: inline-block;	
+	text-align: right;
+	margin: 10px 1px;
+	position: relative;
+}
+.check3 {
+	width: 23%;
+	display: inline-block;
+	margin: 10px 1px;
+	text-align: left;
+}
+.check2 {
+	width: 48%;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 1px;
+	padding: 0px 5px;
+}
+.top-nav {
+	text-align: center;
+	padding: 20px 0px;
+}
+.items {
+	min-width: 30px;
+	margin: 0px 7px;
+	font-size: 13px;
+	color: gray;
+	font-weight: bold;
+}
+.lang {
+	display: inline-block;
+	color: $white;
+}
+.signup-btn {
+	margin: 0px 15px;
+	display: inline-block;
+	color: #282828;
+	width: 38%;
+	font-family: $font-default;
+	font-size: 14px;
+	padding: 10px 15px;
+	border-radius: 45px;
+	background-color: $white;
+	text-align: center;
+	font-weight: bold;
+}
+.circle {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: -3px 0px 0px -45px;
+}
+//===========================================
+	// -Navbar end
+//===========================================

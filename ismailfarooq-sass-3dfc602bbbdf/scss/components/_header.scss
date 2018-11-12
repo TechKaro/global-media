@@ -1,0 +1,47 @@
+//===========================================
+	// -Header start
+//===========================================
+
+.top {
+	height: $height;
+	background-image:  url("../images/header.jpg");;
+	border: $border;
+	background-size:  cover;
+}
+.layar {
+	background-color:  #000000ba;
+	width:  100%;
+	height: $height;
+}
+.page-heading {
+	width: 100%;
+	color: $white;
+	text-align: center;
+	padding: 80px 0px;
+}
+.signup-btn2 {
+	margin: 15px 20px;
+	display: inline-block;
+	width: 19%;
+	padding:17px;
+	border-radius: 45px;
+	background-image: linear-gradient(to right, #de4627, #f29b31);
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+.heading {
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+.heading1 {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 60px;
+	width: 60%;
+	padding: 0px 50px;
+}
+//===========================================
+	// -Header end
+//===========================================
