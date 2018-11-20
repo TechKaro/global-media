@@ -11,7 +11,7 @@ html, body {
   margin: 0px;
   font-family: $font-default;
   font-size: 16px;
-  transition: 50ms;
+  scroll-behavior: smooth;
 	
 	@include mq-only('sm', 'md') {
     font-size: 10px;
