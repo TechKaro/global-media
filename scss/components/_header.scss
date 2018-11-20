@@ -1,18 +1,58 @@
 //===========================================
-	// -Header start
+// -Header start
 //===========================================
+.slider-background {
+	height: $header-height;
+	background-image: url("../images/header.jpg");
+}
+.slider-layout {
+	height: $header-height;
+	width: 100%;
+	background-color:#282828b3;
+	margin: 0px auto;
+}
 
-.top {
-	height: $height;
-	background-image:  url("../images/header.jpg");;
-	border: $border;
-	background-size:  cover;
+.main-header {
+	position: absolute;
+	width: 100%;
+	margin-top: 48px;
 }
-.layar {
-	background-color:  #000000ba;;
-	width:  100%;
-	height: $height;
+@include mq-only('xs', 'md') {
+	// .main-header {
+	// 	margin: 0px auto;
+	// }
+}
+
+
+.global-heading {
+	width: 100%;
+	margin: 0 auto;
+	// width: 565px;
+	
+	h1 {
+		display: inline-block;
+		font-family: $font-default;
+		font-size: rem(60);
+		color: $lighten;
+		letter-spacing: 0.1px;
+		line-height: 60px;
+		margin-top: 261px;
+	}
+	
+	
+	@include mq-only('xs', 'md') {
+		h1 {
+			font-size: rem(30);
+		}	
+	} 
+	
+	.gradient-btn-parent a {
+		border: 2px solid orangered;
+		-webkit-box-shadow: 10px 10px 51px -19px rgba(84,84,84,1);
+		-moz-box-shadow: 10px 10px 51px -19px rgba(84,84,84,1);
+		box-shadow: 10px 10px 51px -19px rgba(84,84,84,1);
+	}
 }
 //===========================================
-	// -Header end
+// -Header end
 //===========================================

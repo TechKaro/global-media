@@ -1,18 +1,22 @@
 //=======================================================
 	// -Global style start
 //=======================================================
-
+* {
+  box-sizing: border-box;
+}
 
 // Default style start
 
 html, body {
+  margin: 0px;
   font-family: $font-default;
-	font-size: 8px;
+  font-size: 16px;
+  transition: 50ms;
 	
-	@include mq('sm', min) {
+	@include mq-only('sm', 'md') {
     font-size: 10px;
   }
-	@include mq('md', min) {
+	@include mq-only('md', 'lg') {
     font-size: 12px;
   }
 	@include mq('lg', min) {
@@ -21,8 +25,34 @@ html, body {
   @include mq('xl', min) {
     font-size: 16px;
   }
-}
 
+  .main-container {
+    margin: 0px auto;
+    max-width: $main-container-width;
+    width: 100%;
+  }
+  
+  .btn {
+    font-family: $font-default;
+		margin: 0px;
+		padding: 16px 50px;
+		border-radius: 120px;
+		font-size: rem(14);
+    text-decoration: none;
+    display: inline-block;
+    
+    &:hover {
+      transition: 300ms;
+      opacity: 0.9;
+    }
+  }
+
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 //=======================================================
 	// -Global style  end
 //=======================================================
